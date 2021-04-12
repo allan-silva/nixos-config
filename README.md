@@ -11,3 +11,9 @@ File refs:
 /home/allan.silva/nixos-config/development.nix
 ```
 
+
+Repl to the NixOS (access to config, e.g. config.networking.nameservers):
+
+```
+nix repl  '<nixpkgs/nixos>'
+```
