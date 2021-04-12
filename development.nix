@@ -1,6 +1,7 @@
 { config, pkgs, ... }:
 
-{ environment.systemPackages = [
+{
+  environment.systemPackages = [
     pkgs.wget
     pkgs.curl
     pkgs.git
@@ -11,6 +12,7 @@
     pkgs.python3
     pkgs.python37
     pkgs.python37Packages.virtualenv
+    pkgs.pkgs.nixpkgs-fmt
   ];
 
   # Docker service

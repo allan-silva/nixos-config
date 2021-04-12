@@ -10,7 +10,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users."allan.silva" = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "docker"]; # whell group enables ‘sudo’ for the user.
+    extraGroups = [ "wheel" "docker" ]; # whell group enables ‘sudo’ for the user.
   };
 
   # Software like vscode needs set this to true

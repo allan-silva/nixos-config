@@ -1,8 +1,8 @@
-{ config, pkgs, ...}:
+{ config, pkgs, ... }:
 
-{ 
+{
 
-environment.systemPackages = [
+  environment.systemPackages = [
     pkgs.firefox
     pkgs.gnome3.gnome-tweak-tool
     pkgs.terminator
