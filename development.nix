@@ -10,8 +10,7 @@
     pkgs.docker
     pkgs.docker-compose
     pkgs.python3
-    pkgs.python37
-    pkgs.python37Packages.virtualenv
+    pkgs.python38Packages.virtualenv
     pkgs.pkgs.nixpkgs-fmt
   ];
 

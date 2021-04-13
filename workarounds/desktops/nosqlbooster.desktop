@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Mongo GUI
+Comment=NoSqlBooster
+Exec=appimage-run /home/allan.silva/opt/nosqlbooster4mongo-4.7.5.AppImage
+Icon=aplicativo.png
+Terminal=false
+Icon=appimagekit-nosqlbooster4mongo
