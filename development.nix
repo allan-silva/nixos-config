@@ -11,7 +11,8 @@
     pkgs.docker-compose
     pkgs.python3
     pkgs.python38Packages.virtualenv
-    pkgs.pkgs.nixpkgs-fmt
+    pkgs.nixpkgs-fmt
+    pkgs.postman
   ];
 
   # Docker service
