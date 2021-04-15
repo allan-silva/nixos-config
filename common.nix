@@ -8,5 +8,7 @@
     pkgs.terminator
     pkgs.libreoffice-fresh
     pkgs.spotify
+    pkgs.zip
+    pkgs.unzip
   ];
 }

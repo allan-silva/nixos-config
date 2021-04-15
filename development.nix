@@ -13,6 +13,8 @@
     pkgs.python38Packages.virtualenv
     pkgs.nixpkgs-fmt
     pkgs.postman
+    pkgs.openjdk11
+    pkgs.maven
   ];
 
   # Docker service
