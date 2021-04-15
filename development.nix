@@ -6,7 +6,6 @@
     pkgs.curl
     pkgs.git
     pkgs.vscode
-    pkgs.virtualbox
     pkgs.docker
     pkgs.docker-compose
     pkgs.python3
