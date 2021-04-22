@@ -1,7 +1,7 @@
-{pkgs ? import <nixpkgs> {}}:
+{ pkgs ? import <nixpkgs> { } }:
 pkgs.mkShell {
-    buildInputs = [
-        (import ./common.nix { inherit pkgs; })
-        pkgs.jdk14
-    ];
+  buildInputs = [
+    (import ./common.nix { inherit pkgs; })
+    pkgs.jdk14
+  ];
 }

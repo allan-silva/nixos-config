@@ -10,5 +10,6 @@
     pkgs.spotify
     pkgs.zip
     pkgs.unzip
+    pkgs.pinta
   ];
 }
