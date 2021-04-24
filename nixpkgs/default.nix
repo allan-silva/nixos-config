@@ -5,5 +5,6 @@ in
 {
   mylocals = {
     alacarte = pkgs.callPackage ./gnome/alacarte { }; # WIP
+    offsetexplorer = pkgs.callPackage ./offsetexplorer { }; # WIP
   };
 }

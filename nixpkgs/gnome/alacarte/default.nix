@@ -1,10 +1,10 @@
 { fetchurl
-# , docbook_xml_dtd_42
-# , docbook_xml_xslt
+  # , docbook_xml_dtd_42
+  # , docbook_xml_xslt
 , glib
 , gnome-menus
 , intltool
-# , libxslt
+  # , libxslt
 , pkg-config
 , python3
 , python3Packages
