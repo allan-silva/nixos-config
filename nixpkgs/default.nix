@@ -4,7 +4,7 @@ let
 in
 {
   mylocals = {
-    alacarte = pkgs.callPackage ./gnome/alacarte { }; # WIP
-    offsetexplorer = pkgs.callPackage ./offsetexplorer { }; # WIP
+    alacarte = pkgs.callPackage ./gnome/alacarte { };
+    offsetexplorer = pkgs.callPackage ./offsetexplorer { };
   };
 }
