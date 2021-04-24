@@ -17,9 +17,3 @@ Repl to the NixOS (access to config, e.g. config.networking.nameservers):
 ```
 nix repl  '<nixpkgs/nixos>'
 ```
-
-Link `/bin/bash`:
-
-```
-ln -s /run/current-system/sw/bin/bash /bin/bash
-```
